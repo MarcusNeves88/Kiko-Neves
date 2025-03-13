@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiko Neves</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="homeanchor">
+        <nav>
+            <div class="logo">
+                <img src="./imagens_index/logo_kiko_neves.jpg" alt="Logo Kiko Neves" class="logo">  
+            </div>
+            <div class="languageContainer">
+                <img id="germanflag" src="./imagens_index/germanyflag.png" width="20px" height="20px">
+                <img id="portugueseflag" src="./imagens_index/bandeiraportugal.jpg" width="20px" height="20px">
+                <select name="language" id="languageselect" onchange="resizeImage()">
+                    <option value="" disabled selected>Choose Language</option>
+                    <option value="English">English</option>
+                    <option id="selectDeutsch" value="Deutsch">Deutsch</option>
+                    <option value="Français">Français</option>
+                    <option value="Español">Español</option>
+                    <option id="selectPortguese" value="Portugues">Português</option>
+                </select>
+            </div>
+            <div class="menu-toggle">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul>
+                <li><a href="#homeanchor">Home</a></li>
+                <li><a href="#aboutanchor">About</a></li>
+                <li><a href="#servicesanchor">Services</a></li>
+                <li><a href="#partnersanchor">Partners</a></li>
+                <li><a href="#ericeiraanchor">Ericeira</a></li>
+                <li><a href="#contactanchor">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="video-container">
+            <iframe src="https://player.vimeo.com/video/1057158195?h=594b8709ca&autoplay=1&loop=1&muted=1&title=0&byline=0&portrait=0" 
+                frameborder="0" 
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
+                title="videodrone">
+            </iframe>
+        </div>
+        <br>
+        <br>
+    </header>
+    <div id="aboutanchor"></div>
+    <h1 id="about" class="about">About</h1>
+    <div class="container">
+        <a>
+            <img class="perfil" src="./imagens_index/perfil_kiko.png" alt="Foto de perfil Kiko Neves">
+        </a>
+            <p id="about-text">With over 10 years of experience capturing the essence of surfing, Kiko Neves is a professional photographer based in Ericeira, Portugal—one of the most iconic destinations for wave lovers. Specializing in capturing unique moments in the sea, Kiko is known for his keen eye and ability to transform each surfed wave into an unforgettable memory.</p>
+            <p id="about-text2" style="clear: left; margin-top: 100px;">Serving clients from all over the world, many of whom discover their passion for surfing during lessons in the region, Kiko combines technique, creativity, and a genuine connection with the surfing lifestyle to deliver images that tell stories. Whether for beginners or experienced surfers, his work is a celebration of waves, movement, and the unique energy of Ericeira.</p>  
+            <p id="about-text3">Welcome to Kiko Neves' world—where every click is an invitation to relive the excitement of surfing!</p>
+        </div>
+        <div id="servicesanchor"></div>
+        <h1 id="services" class="services">Services</h1>
+        <div class="gallery">
+            <div class="image-container">
+                <img src="imagens_index/surfe_profissional.png" alt="Professional Surfing">
+                <div class="description" id="services-professional-surfing">Professional Surfing</div>
+            </div>
+            <div class="image-container">
+                <img src="imagens_index/paisagem.png" alt="Landscape">
+                <div class="description" id="services-landscape">Landscape</div>
+            </div>
+            <div class="image-container">
+                <img src="imagens_index/lifestyle.png" alt="Lifestyle">
+                <div class="description" id="services-lifestyle">Lifestyle</div>
+            </div>
+            <div class="image-container">
+                <img src="imagens_index/escola_de_surfe.png" alt="Surf School">
+                <div class="description" id="services-surf-school">Surf School</div>
+            </div>
+            <div class="image-container">
+                <img src="imagens_index/drone.png" alt="Drone">
+                <div class="description" id="services-drone">Drone</div>
+            </div>
+            <div class="image-container">
+                <img src="imagens_index/conceituais.png" alt="Conceptual">
+                <div class="description" id="services-conceptual">Conceptual</div>
+            </div>
+        </div>
+        <div id="partnersanchor"></div>
+        <h1 id="partners" class="partners">Partners</h1>
+    <div class="surfers">
+        <a href="https://3surfers.com/">
+        <img class="surferslogo" src="./imagens_index/3_surfers_logo.png" alt="Logo 3 Surfers">
+        </a>
+        <p id="partner-name" style="margin-top: 40px; font-size: 30px;">3'SURFERS</p>
+        <p id="partner-text1" style="margin-top: 20px;"> We are a surf school with the goal of providing a unique and unforgettable surfing experience, not just in summer but throughout the year. We take our students to find the best waves in Portugal according to their skill level, aiming to teach moral and civic values through the sport and the wonderful surfing lifestyle.</p><br>
+        <p id="partner-text2" style="clear: left;"> We are like a family, always ready to welcome new members and integrate them into our environment, ensuring their safety in the water, proper equipment, highly trained instructors, and above all, lots of fun. Whether you are a beginner with no experience or an advanced surfer, we are here to provide great surfing lessons and meet all your expectations.</p>
+    </div>
+    <div id="ericeiraanchor"></div>
+    <h1 id="ericeira" class="ericeira">Ericeira</h1>
+    <div class="container">
+        <a>
+            <img class="ericeiraimg" src="./imagens_index/ericeira.png" alt="Foto da cidade Ericeira">
+        </a>
+        <p class="ericeiratxt" id="ericeira-text">Located on Portugal’s west coast, Ericeira is a true paradise for surfing lovers. Recognized as Europe’s first World Surfing Reserve, this charming fishing village is famous for its perfect waves and diverse surf spots, attracting surfers of all levels—from beginners to professionals. Iconic beaches like Ribeira d'Ilhas, Coxos, and Foz do Lizandro offer breathtaking landscapes and excellent surfing conditions.</p>
+        <p class="ericeiratxt" id="ericeira-text2">Beyond surfing, Ericeira captivates visitors with its relaxed atmosphere, blending local traditions with a vibrant coastal lifestyle. It is the perfect destination for those seeking adventure, nature, and the authentic Portuguese seaside spirit.</p>
+    </div>    
+    <div id="contactanchor"></div>
+        <h1 id="contact" class="contact">Contact</h1>
+    <div class="contact-form">
+
+        <p id="contact-text">Have any questions or want to book a surf photoshoot? Send me a message!</p>
+        <h2 id="contact-email" style="margin-top: 20px;">Get in touch using the form or send an email to: kikonevesfotografia@gmail.com</h2><br>
+        
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit">Send Message</button>
+        </form>
+    </div>   
+    <footer>
+        <div class="footerContainer">
+            <img id="logoFooter" src="./imagens_index/logo_kiko_neves.jpg" alt="logoKikoNeves">
+            <img id="instagramFooter" src="./imagens_index/instagram.jpg">
+            <div id="footerContact">
+            <span>Contact</span><br><br>
+            <span>+55 21 99999-9999</span><br><br>
+            <span>kikonevesfotografia@gmail.com</span>
+            </div>
+        </div>
+    </footer> 
+    <script src="./script.js" defer></script>
+</body>
+</html>
